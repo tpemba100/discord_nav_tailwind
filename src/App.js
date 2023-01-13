@@ -1,10 +1,11 @@
-import './App.css';
-import SideBar from './components/SideBar';
+import "./App.css";
+import SideBar from "./components/SideBar";
 
 function App() {
   return (
-    <div className="flex">
+    <div className=" layout flex">
       <SideBar />
+      {/* <Channel /> */}
     </div>
   );
 }
